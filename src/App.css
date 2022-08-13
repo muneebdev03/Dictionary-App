@@ -1,0 +1,73 @@
+.App{
+    height: 100vh;
+    background-color: #282c34;
+    color: antiquewhite;
+}
+
+.title{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    margin-top: 30px;
+
+}
+.Header{
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inp-field{
+    background-color:  #282c34;
+    border: 1px solid white;
+    border-radius: 14px;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-transform: capitalize;
+    width: 400px;
+    text-align: center;
+    
+}
+.input{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
+
+.word{
+    color: whitesmoke;
+    margin-top: 205px;
+}
+.word_main{
+    margin-top: 30px;
+}
+.Defination{
+    margin-top: 50px;
+}
+iframe{
+    outline: none;
+    border: none;
+    
+    
+}
+.audio_main{
+    background: none;
+}
+.audio_edit{
+    margin-top: 50px;
+}
+.display{
+    text-transform: capitalize;
+}
+
+button:hover{
+    color: red;
+}
+button:focus{
+    color: green;
+}
